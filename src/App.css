@@ -1,0 +1,41 @@
+
+        body { 
+            
+     background: #948888;
+        header { 
+            padding: 10px;
+        } 
+
+
+        .separator {
+            width: 100%;
+            height: 0.3rem;  
+            background-color: black; 
+            margin: 0rem ; 
+        }
+        .language{
+            position: absolute;
+            top: 0.3rem;
+            right: 1rem;
+            width: 5rem;
+        }
+     
+       .ai{
+            margin-top: 10rem;
+            width: 10rem;
+        }
+
+        .income-expense-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .ai-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav {
+            text-align: center;
+        }
+     } 
