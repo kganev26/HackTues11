@@ -20,7 +20,7 @@ body{
 .container{
   width: 100%;
   min-height: 86.5vh;
-  background-image: url(C:\Programs_PK\HTML\test_1\my-app\public\alexander-grey-8lnbXtxFGZw-unsplash.jpg);
+  background-image: url(images/alexander-grey-8lnbXtxFGZw-unsplash.jpg);
   background-color: rgba( 0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-position: center;
@@ -101,31 +101,3 @@ a{
   border: 1px solid #fff;
   color: #fff;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-      .rectangle {
-          width: 300px;  
-          height: 150px; 
-          background-color: #ffffff; 
-          border-radius: 20px; 
-          border: 2px solid black;
-          text-align: center;
-          line-height: 150px;
-          color: black;
-          font-size: 20px;
-          font-family: Arial, sans-serif;
-      }
-
-      .containerr{
-          width: 100%;
-                      text-align: center;
-  min-height: 100vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
-      }
