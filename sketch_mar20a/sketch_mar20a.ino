@@ -3,7 +3,7 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define SS_PIN D8
+# define SS_PIN D8
 #define RST_PIN D3
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
@@ -41,6 +41,7 @@ void sendUIDToServer(String uid) {
         http.addHeader("Content-Type", "application/json");
         String jsonPayload = "{\"uid\":\"" + uid + "\"}";
         int httpResponseCode = http.POST(jsonPayload);
+        Serial.print(jsonPayload);
         if (httpResponseCode > 0) {
             String response = http.getString();
             Serial.println(response);
