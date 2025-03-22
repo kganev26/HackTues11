@@ -1,1 +1,0 @@
-export const server_adress = "http://192.168.37.104:5500";
