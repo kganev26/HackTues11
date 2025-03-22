@@ -7,9 +7,9 @@
 #define RST_PIN D3
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
-const char* ssid = "GalaxyA255G";
-const char* password = "12345678";
-const char* serverURL = "http://192.168.37.104:5500/cardnum";  
+const char* ssid = "P'sA05s";
+const char* password = "QWERTYUI";
+const char* serverURL = "http://192.168.248.104:5500/cardnum";  
 
 void setup() {
     Serial.begin(115200);
